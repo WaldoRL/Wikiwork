@@ -7,6 +7,7 @@ import POOView from '../views/POOView.vue'
 import PFun from '@/views/PF.vue'
 import PD from  '@/views/PD.vue'
 import SOLID from  '@/views/PS.vue'
+import TECH from  '@/views/tech.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -58,6 +59,11 @@ const router = createRouter({
       path: '/git',
       name: 'git',
       component: () => import('../views/GIT.vue')
+    },
+    {
+      path: '/tech',
+      name: 'tech',
+      component: TECH
     }
   ],
 })

@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
 import List from './views/ListView.vue';
-import audioFile from './assets/WikiWork.wav'; // Asegúrate de la ruta correcta al archivo de audio
+import audioFile from './assets/WikiWork.mp3'; // Asegúrate de la ruta correcta al archivo de audio
 
 const playAudio = () => {
   const audio = new Audio(audioFile);
